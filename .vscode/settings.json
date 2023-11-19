@@ -1,0 +1,36 @@
+{
+    "editor.fontSize": 14,
+    "editor.lineHeight": 0,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": -2,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 3,
+    "explorer.compactFolders": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "editor.wordWrap": "off",
+    "prettier.printWidth": 300,
+    "terminal.integrated.fontSize": 14,
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.fontFamily": "Roboto Mono, Dank Mono, Operator Mono, Apercu Mono, JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#3dabf490"
+                }
+            }
+        ]
+    },
+    "editor.smoothScrolling": true,
+    "bladeFormatter.format.noSingleQuote": true,
+    "blade.format.enable": true,
+    "bladeFormatter.format.indentInnerHtml": true,
+    "bladeFormatter.format.noMultipleEmptyLines": true
+}

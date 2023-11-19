@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Drawing Traingle</title>
+
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				transition: all 0.2s ease-in;
+			}
+
+			body {
+				width: 100vw;
+				height: 100vh;
+				overflow: hidden;
+			}
+
+			.container {
+				position: relative;
+				width: 100%;
+				height: 100%;
+			}
+
+			.dots,
+			.lines {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			.dots {
+				z-index: 2;
+			}
+
+			.lines {
+				z-index: 1;
+			}
+
+			.dots .dot,
+			.lines .line {
+				position: absolute;
+				z-index: 1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #fff;
+				font-size: 10px;
+				border-radius: 999px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="container">
+			Dots
+			<div class="dots">
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+			</div>
+
+			Lines
+			<div class="lines">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</div> -->
+
+		<canvas id="canvas"></canvas>
+
+		<script type="text/javascript" src="js/canvas.js"></script>
+	</body>
+</html>
